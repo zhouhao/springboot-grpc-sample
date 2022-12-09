@@ -23,6 +23,18 @@
         </dependency>
 
         <dependency>
+            <groupId>net.devh</groupId>
+            <artifactId>grpc-server-spring-boot-starter</artifactId>
+            <version>2.14.0.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.saltyee.protobuf</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
