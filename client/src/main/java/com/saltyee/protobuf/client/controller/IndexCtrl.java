@@ -15,7 +15,7 @@ public class IndexCtrl {
     }
 
     @GetMapping("/")
-    public String index(@RequestParam("name") String name) {
+    public String index(@RequestParam("name") String name) throws InterruptedException {
         return grpcService.receiveGreeting(name);
     }
 }
